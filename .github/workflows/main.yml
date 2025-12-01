@@ -1,6 +1,5 @@
 name: Deploy React App to GitHub Pages
 
-# Trigger pipeline on push to main branch
 on:
   push:
     branches:
@@ -11,27 +10,22 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Checkout repository
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Step 2: Setup Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 20
 
-      # Step 3: Install dependencies
       - name: Install dependencies
         run: npm install
-        working-directory: ./   # root of your React project
+        working-directory: ./   
 
-      # Step 4: Build React app
       - name: Build React app
         run: npm run build
-        working-directory: ./   # root of your React project
+        working-directory: ./   
 
-      # Step 5: Deploy to GitHub Pages (clean before deploy)
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
