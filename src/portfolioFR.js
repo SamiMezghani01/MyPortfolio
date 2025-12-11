@@ -230,14 +230,14 @@ const achievementSection = {
     {
       title: "Meta Hacker Cup 2022 - Tour de qualification",
       subtitle: "1303ᵉ place sur 27 000+ participants — Compétition mondiale de programmation compétitive organisée par Meta (Facebook).",
-      image: require("./assets/images/metaqual.jpeg"),
+      image: require("./assets/images/metaqualcapt.jpeg"),
       imageAlt: "Meta Hacker Cup 2022 Qualification",
       footerLink: []
     },
     {
       title: "Meta Hacker Cup 2022 - Tour 1",
       subtitle: "3002ᵉ place sur 12 000+ participants — Tour 1 de la compétition mondiale Meta Hacker Cup 2022. Avec un peu plus de temps, j'aurais été classé dans le top 800.",
-      image: require("./assets/images/metaraound1.jpeg"),
+      image: require("./assets/images/metaround1capt.jpeg"),
       imageAlt: "Meta Hacker Cup 2022 Round 1",
       footerLink: []
     },
