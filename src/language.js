@@ -1,4 +1,4 @@
-export let lang = localStorage.getItem("lang") || "en";
+export let lang = localStorage.getItem("lang") || "fr";
 
 export function setLanguage(newLang) {
   lang = newLang;

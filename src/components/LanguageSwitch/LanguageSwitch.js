@@ -18,7 +18,11 @@ const LanguageSwitch = () => {
 
   return (
     <label className="switch">
-      <input type="checkbox" checked={isFrench} onChange={handleToggle} />
+      <input
+        type="checkbox"
+        checked={!isFrench}
+        onChange={handleToggle}
+      />
       <span className="slider round">
         <span className="emoji">{isFrench ? emoji("🇫🇷") : emoji("🇬🇧")}</span>
       </span>

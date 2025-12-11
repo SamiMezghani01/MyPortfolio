@@ -2,7 +2,7 @@
 import * as fr from "./portfolioFR";
 import * as en from "./portfolioENG";
 
-const lang = localStorage.getItem("lang") || "en";
+const lang = localStorage.getItem("lang") || "fr";
 
 const data = lang === "fr" ? fr : en;
 

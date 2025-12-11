@@ -17,11 +17,11 @@ export default function Greeting() {
 
   const resumeFile =
     lang === "fr"
-      ? require("./SamiMezghaniFR.pdf")
-      : require("./SamiMezghaniENG.pdf");
+      ? require("./Sami_MEZGHANI_CV_FR.pdf")
+      : require("./Sami_MEZGHANI_CV_ENG.pdf");
 
   const resumeName =
-    lang === "fr" ? "SamiMezghaniCV_FR.pdf" : "SamiMezghaniCV_EN.pdf";
+    lang === "fr" ? "Sami_MEZGHANI_CV_FR.pdf" : "Sami_MEZGHANI_CV_ENG.pdf";
 
   return (
     <motion.div

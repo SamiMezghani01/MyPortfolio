@@ -249,6 +249,20 @@ const achievementSection = {
       imageAlt: "ISIMS Ceremony 2022",
       footerLink: []
     },
+    {
+      title: "Meta Hacker Cup 2022 - Qualification Round",
+      subtitle: "Rank 1303 out of 27,000+ participants — Meta's prestigious global competitive programming competition.",
+      image: require("./assets/images/metaqual.jpeg"),
+      imageAlt: "Meta Hacker Cup 2022 Qualification",
+      footerLink: []
+    },
+    {
+      title: "Meta Hacker Cup 2022 - Round 1",
+      subtitle: "Rank 3002 out of 12,000+ participants — Round 1 of Meta's prestigious global programming competition. With just more time, I would have achieved top 800 ranking.",
+      image: require("./assets/images/metaraound1.jpeg"),
+      imageAlt: "Meta Hacker Cup 2022 Round 1",
+      footerLink: []
+    },
 
     // === 2023 ===
     {
