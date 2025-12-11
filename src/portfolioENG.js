@@ -252,7 +252,7 @@ const achievementSection = {
     {
       title: "Meta Hacker Cup 2022 - Qualification Round",
       subtitle: "Rank 1303 out of 27,000+ participants — Meta's prestigious global competitive programming competition.",
-      image: require("./assets/images/metaqualcapt.jpeg"),
+      image: require("./assets/images/metaqualcapt.JPG"),
       imageAlt: "Meta Hacker Cup 2022 Qualification",
       footerLink: []
     },
